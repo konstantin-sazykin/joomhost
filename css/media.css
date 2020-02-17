@@ -1,0 +1,158 @@
+
+@media (max-width: 1160px) {
+ .price .price__items {
+    flex-direction: column;
+    align-items: center;
+
+ }
+ .price-item {
+    max-width: 48%;
+    margin-bottom: 50px;
+ }
+ .price-item__number {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+ }
+ .price {
+     padding-bottom: 20px;
+ }
+ .reviews {
+     padding-top: 20px;
+ }
+ .reviews-slider {
+    margin-bottom: 20px;
+}
+ .reviews-box {
+     max-width: 70%;
+     margin: 0 auto;
+     box-shadow: none;
+     flex-direction: column;
+     align-items: center;
+ }
+.reviews-box__images {
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+}
+ 
+.reviews-slider .slick-list {
+    margin: 0;
+}
+}
+
+@media (max-width: 1065px) {
+    .top__inner .top-info {
+        max-width: 425px;
+    } 
+    .footer__inner {
+        flex-wrap: wrap;
+        padding: 40px 0 80px;
+    }
+    .footer-col__logo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-form button {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    header  .menu__list {
+    display: none;
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+    }
+
+    header .menu__list li {
+    margin-left: 0;
+    background-color: rgba(255, 255, 255, 0.55)
+    }
+    header .menu__list a {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #000000;
+    }
+
+    header .btn__menu {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    header .menu__list {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 940px) {
+     .top__inner .top-info {
+        max-width: 325px;
+    } 
+}
+
+@media (max-width: 855px) {
+    .top .top-images__box img {
+        width: 300px;
+    }
+    .top .top-images__circle {
+        width: 160px;
+        height: 160px;
+        top: -30;
+        right: -30px;
+    }
+}
+
+
+@media (max-width: 740px) {
+    .top {
+        padding: 50px 0;
+    }
+    
+    .top__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top__inner .top-info {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 100px;
+    } 
+    .price-item {
+        max-width: 100%;
+        margin-bottom: 50px;
+        padding: 0 20px 30px;
+     }
+     .price__desc {
+        margin: 35px auto 50px;
+    }
+
+    .footer-form {
+        width: 100%;
+    }
+    .footer-menu {
+        width: 165px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media (max-width: 399px) {
+    .top .top-images__circle {
+        right: 0px; 
+
+    }
+
+    
+    
+}
